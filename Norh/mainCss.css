@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Ubuntu; 
+    src: url(TXT/Ubuntu-B.ttf); 
+}
+.list { font-family: Ubuntu; 
+         
+          
+          position: relative;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right:0;
+          width: 100%;
+}
+
+li a {
+    text-decoration: none;
+    border-top: 1px solid black;
+    color:black;
+}
+
+.contact { display: flex;
+}
+
+#sholl {flex: 5;
+         margin-left: 4%;  
+}
+
+#nomber {flex:2;
+         display: flex;
+}
+.VFI {
+    display: flex;
+    justify-content: space-between;
+    background: chocolate;
+    flex: 3;
+}
+b {flex: 1;
+
+}
+
+
+.menu {display: flex;
+       flex-flow: column ; 
+}
+.imgg {width: 165px;
+       height:72px;
+       margin-left: 4%;
+       margin-bottom: 2%;
+       margin-top: 2%; 
+}
+li {list-style-type: none;
+}
+
+.uul { display: flex;
+     justify-content: space-around;
+     width: 500px;
+}
+    
