@@ -3,15 +3,20 @@
     src: url(TXT/Ubuntu-B.ttf); 
 }
 .list { font-family: Ubuntu; 
-         
-          
-          position: relative;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right:0;
-          width: 100%;
-}
+        background-image:url(img/fon.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-clip: border-box;
+        background-size: cover;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right:0;
+        height: 1660px;
+        margin: 0 15%;
+        }
 
 li a {
     text-decoration: none;
@@ -73,4 +78,3 @@ li {list-style-type: none;
      justify-content: space-around;
      width: 500px;
 }
- 
