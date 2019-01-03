@@ -78,3 +78,36 @@ li {list-style-type: none;
      justify-content: space-around;
      width: 500px;
 }
+
+/* Дуратские квадраты */
+
+section { width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 45px; 
+          
+}
+
+.c1 { width: 500px;
+      height: 500px;
+      transform:  matrix(0.77, 0.77, -0.77, 0.77, 110, 90);
+      background: red;
+       
+     
+}
+
+.c2 {width: 350px;
+    height: 350px;
+    transform: matrix(0.97, 0.87, -0.87, 0.87, -280, 150);
+    background: rgb(80, 76, 76); 
+    position: absolute;
+}
+
+.c3 { width: 200px;
+      height: 200px;
+      transform: matrix(0.77, 0.77, -0.77, 0.77, -86.9, 431.1);
+      background: rgb(42, 138, 47); 
+      position: absolute;
+       
+    }
