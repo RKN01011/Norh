@@ -100,8 +100,19 @@ section { width: 100%;
 .c2 {width: 350px;
     height: 350px;
     transform: matrix(0.97, 0.87, -0.87, 0.87, -280, 150);
-    background: rgb(80, 76, 76); 
+    background: rgb(186, 152, 152); 
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c22 { transform: rotate(-45deg) ;
+       width: 2500px;
+       height: 80px;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+
 }
 
 .c3 { width: 200px;
