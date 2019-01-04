@@ -14,7 +14,7 @@
         bottom: 0;
         left: 0;
         right:0;
-        height: 1660px;
+        height: 1860px;
         margin: 0 15%;
         }
 
@@ -85,7 +85,7 @@ section { width: 100%;
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-left: 45px; 
+          margin-left: 115px; 
           
 }
 
@@ -93,9 +93,34 @@ section { width: 100%;
       height: 500px;
       transform:  matrix(0.77, 0.77, -0.77, 0.77, 110, 90);
       background: red;
+      overflow: hidden;
+      background-color: transparent;
        
      
 }
+
+.c11 {
+    background: url(img/chris-kristiansen-563481-unsplash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;     
+    width: 100%;
+    height: 100%;
+    transform:matrix(1.03, -0.97, 0.97, 0.97, 0, 0); }
+  
+    
+
+.c12 {
+    width: 35%;
+    height: 35%;
+    transform: matrix(1, 0, 0, 1, 163, 335);
+}
+
+.c13 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(186, 203, 220);
+    transform: matrix(0.7, 0.7, -0.7, 0.7, 225, -199); }
 
 .c2 {width: 350px;
     height: 350px;
@@ -104,21 +129,95 @@ section { width: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;}
+
+.c23 { background: #fff;
+       transform: matrix(1, 0, 0, 1, -141, -142) ;
+       position: absolute;
+       width: 20%;
+       height: 20%;
+
+}
+.c231 { background: rgb(67, 84, 101);
+        transform: matrix(1, 0, 0, 1, 0, 0) ;
+        width: 50%;
+        height: 50%;
 }
 .c22 { transform: rotate(-45deg) ;
        width: 2500px;
        height: 80px;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
+       padding-bottom: 10%;
+       padding-right: 16%;
+       margin-bottom: 70px;
+       line-height: 1.2em;
+       font-size: 10pt;
+       
 
+}
+.c221 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.c222 {
+    margin-bottom: 70px;
+    margin-top: 24px;
+    text-align: center;
+} 
+
+.c223 {
+    border: 1px solid black;
+    padding: 7px 40px 7px 40px;
+    margin-left: 86px;
+    transform: matrix(1, 0, 0, 1, 0, -18);
+    background: rgb(186, 152, 152); 
 }
 
 .c3 { width: 200px;
       height: 200px;
       transform: matrix(0.77, 0.77, -0.77, 0.77, -86.9, 431.1);
-      background: rgb(42, 138, 47); 
+      background: rgb(186, 203, 220); 
       position: absolute;
-       
-    }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+
+.c31 { transform: matrix(0.82, -0.82, 0.82, 0.82, 0, 0);
+       font-size: 10pt;
+}
+
+.c32 { transform: matrix(1.3, 0, 0, 1.3, 75, -74);
+       background: rgb(28, 40, 54);
+       width: 40px;
+       height: 40px;
+       position: absolute;
+}
+
+.c321 { transform: matrix(1, 0, 0, 1, 8, 0);
+        background: rgb(186, 203, 220); 
+        width: 80%;
+        height: 80%;
+}
+
+article { 
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, -47, 1119);
+}
+
+figure {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure figcaption {
+    color: #fff;
+    font-size: 16pt;
+}
