@@ -2,6 +2,9 @@
     font-family: Ubuntu; 
     src: url(TXT/Ubuntu-B.ttf); 
 }
+body {
+    background-color: #6666650a;
+}
 .list { font-family: Ubuntu; 
         background-image:url(img/fon.png);
         background-repeat: no-repeat;
@@ -264,4 +267,23 @@ figure figcaption {
 .arow1 {
     transform: matrix(1, 0, 0, 1, 0, 32);
     position: absolute;
+}
+.arow1, .arow {
+    color: #fff;
+    padding-right: 38px;
+    background: url(img/Arrow.png) no-repeat right; 
+}
+.arow1:hover {
+    color:rgb(186, 152, 152);
+}
+
+.arow:hover {
+    color:rgb(186, 152, 152);
+}
+.radial {
+    width: 100%;
+    height: 55%;
+    background: linear-gradient(to bottom, #ffffff00, #16151577);
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, -25, 749);
 }
