@@ -304,6 +304,9 @@ figure figcaption {
     width: 100%;
     height: 30%;
     background:  url(img/fonNis.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nisfooter {
     width: 100%;
@@ -324,5 +327,20 @@ figure figcaption {
     height: 35%;
     background: url(img/map.png);
     margin-bottom: 3%;
+}
 
+.figure {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.figcaption {
+    color: #fff;
+    font-size: 14pt;
+    margin-top: 4%;
 }
