@@ -362,9 +362,9 @@ figure figcaption {
 }
 
 .znak {
-    width: 210px;
-    height: 200px;
-    transform: matrix(1, -1, 1, 1, 229, 162);
+    width: 205px;
+    height: 225px;
+    transform: matrix(1, -1, 1, 1, 255, 193);
     overflow: hidden;
 }
 
@@ -380,13 +380,124 @@ figure figcaption {
 .znak2 {
     width: 70px;
     height: 70px;
-    transform: matrix(1, -1, 1, 1, 150, 30);
+    transform: matrix(1, -1, 1, 1, 165, 30);
     background-color: rgb(17, 33, 50);
 }
 
 .spisk {
     width: 250px;
     height: 250px;
-    transform: matrix(1, 1, -1, 1, 469, -390);
+    transform: matrix(1, 1, -1, 1, 480, -375);
     background-color: rgb(119, 135, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spisk1 {
+    width: 140px;
+    height: 140px;
+    transform: matrix(1, -1, 1, 1, 9, 14);
+    font-size: 7px;
+}
+
+.spisk1 p {
+    padding: 8% 3% 0 3%;
+    color: #fff;
+    text-align: center;
+    background-image: url(img/imgnis/cuub.png);
+    background-position: 50% -21%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.preim {
+    transform: matrix(1, 1, -1, 1, 860, -611);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(67, 33, 50);
+}
+.preim3 {
+background-color: rgb(67, 84, 101);
+width: 15%;
+height: 15%;
+transform: matrix(1, 0, 0, 1, 8, 8);
+}
+.preim1 {
+    transform: matrix(0.56, -0.56, 0.56, 0.56, 55, 47);
+    width: 5%;
+    height: 5%;
+}
+.grandm {
+    transform: matrix(1, 1, -1, 1, 738, -356 );
+    width: 140px;
+    height: 145px;
+    background: red;
+    position: absolute;
+    overflow: hidden; 
+}
+.grandm1 {
+    background-image: url(img/imgnis/tutor-02.png);
+    transform: matrix(1, -1, 1, 1, 19, 17 );
+    background-position: 38% 34%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 106%;
+    height: 100%;
+}
+.grandm2 {
+    width: 58px;
+    height: 58px;
+    background: rgb(17, 33, 50);
+    transform: matrix(1, 1, -1, 1, 784, -403);
+    position: absolute;
+}
+.grandm3 {
+    width: 55%;
+    height: 55%;
+    background-color: #fff;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.man {
+    
+    transform: matrix(1, -1, 1, 1, 1040, -559 );
+    position: absolute;
+    width: 145px;
+    height: 140px;
+    overflow: hidden;
+
+}
+.man1 {
+    background-image: url(Img/imgnis/online_obytcheii.png);
+    transform: matrix(1, 1, -1, 1, 0, 0 );
+    width: 101%;
+    height: 103%;
+    background-position: 38% 34%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.man2 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(17, 33, 50);
+    transform: matrix(1, 1, -1, 1, 978, -500 );
+    position: absolute;
+}
+.klass {
+    width: 270px;
+    height: 270px;
+    background: transparent;
+    transform: matrix(1, -1, 1, 1, 514, -331 );
+    overflow: hidden;
+}
+
+.klass1 {
+    background-image: url(Img/imgnis/03.png);
+    transform: matrix(1, 1, -1, 1, 0, 0 );
+    width: 101%;
+    height: 103%;
+    background-position: 38% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
