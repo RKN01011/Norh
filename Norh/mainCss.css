@@ -344,3 +344,49 @@ figure figcaption {
     font-size: 14pt;
     margin-top: 4%;
 }
+
+.cofe {
+    width: 240px;
+    height: 230px;
+    transform: matrix(1.15, -1.15, 1.15, 1.15, 120, -46);
+    overflow: hidden;
+}
+.cofe1 {
+    background: url(img/imgnis/green-chameleon-21532-unsplash.png);
+    background-position: 37% 35%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 97%;
+    height: 102%;
+    transform: matrix(1, 1, -1, 1, -50, 55);
+}
+
+.znak {
+    width: 210px;
+    height: 200px;
+    transform: matrix(1, -1, 1, 1, 229, 162);
+    overflow: hidden;
+}
+
+.znak1 {
+    background: url(img/imgnis/einar-h-reynis-544755-unsplash.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 106%;
+    height: 109%;
+    transform: matrix(1, 1, -1, 1, 7, -4);
+}
+.znak2 {
+    width: 70px;
+    height: 70px;
+    transform: matrix(1, -1, 1, 1, 150, 30);
+    background-color: rgb(17, 33, 50);
+}
+
+.spisk {
+    width: 250px;
+    height: 250px;
+    transform: matrix(1, 1, -1, 1, 469, -390);
+    background-color: rgb(119, 135, 152);
+}
