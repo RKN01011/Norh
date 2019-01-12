@@ -2,33 +2,41 @@
     font-family: Ubuntu; 
     src: url(TXT/Ubuntu-B.ttf); 
 }
-body {
-    background-color: #6666650a;
-}
+
 .list { font-family: Ubuntu; 
-        background-image:url(img/fon.png);
+        background-image:url(img/sea.png);
         background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: local;
-        background-clip: border-box;
-        background-size: cover;
+        background-position: 50% 100%;
         position: relative;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right:0;
         height: 1860px;
-        margin: 0 15%;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin: 0 auto;
+        overflow: hidden;
+        width: 80%;
         }
 .list2 { font-family: Ubuntu; 
-         width: 70%;
-         height: 1860px;
-         margin: 0% 0% 0% 15%;
+         margin: 0 auto;
          background: red;
-         box-shadow: 0 0 10px rgba(0,0,0,0.5);
+         overflow: hidden;
+        width: 80%;
         }
-
+.kub1 {
+border-left: 600px solid #fff;
+border-bottom: 760px solid #fff;
+transform: rotate(-45deg);
+position: absolute;
+top: -49px;
+left: 129px;
+width: 1px;
+}
+.kub2 {
+    width: 600px;
+    height: 720px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -40px;
+    right: -293px;
+    background: #fff;
+}
 li a {
     text-decoration: none;
     
@@ -41,6 +49,9 @@ li a:hover { border-top: 1px solid black;
 } 
 
 .contact { display: flex;
+           position: absolute;
+           z-index: 3;
+           width: 100%;
            
 }
 
@@ -50,7 +61,7 @@ li a:hover { border-top: 1px solid black;
 
 #nomber { flex: 2;
          display: flex;
-         justify-content: space-around;
+         
          
           
          
@@ -70,7 +81,10 @@ span {
 
 
 .menu {display: flex;
-       flex-flow: column ; 
+       flex-flow: column;
+       z-index: 3;
+       position: absolute;
+       top: 164px; 
 }
 .imgg {width: 165px;
        height:72px;
@@ -83,10 +97,10 @@ span {
         height: 32px; 
 }
 li {list-style-type: none;
+    display: table-cell;
 }
 
-.uul { display: flex;
-     justify-content: space-around;
+.uul { display: table;
      width: 500px;
 }
 
@@ -96,13 +110,13 @@ section { width: 100%;
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-left: 25px;
-          margin-top: 120px; }
+          position: relative;
+          top: 218px;
+          left: -2%;}
 
 .c1 { width: 500px;
       height: 500px;
       transform:  matrix(0.77, 0.77, -0.77, 0.77, 110, 90);
-      background: red;
       overflow: hidden;
       background-color: transparent;
        
@@ -134,7 +148,7 @@ section { width: 100%;
 
 .c2 {width: 350px;
     height: 350px;
-    transform: matrix(0.97, 0.87, -0.87, 0.87, -280, 150);
+    transform: matrix(0.87, 0.87, -0.87, 0.87, -274, 160);
     background: rgb(186, 152, 152); 
     position: absolute;
     display: flex;
@@ -184,7 +198,7 @@ section { width: 100%;
 
 .c3 { width: 200px;
       height: 200px;
-      transform: matrix(0.77, 0.77, -0.77, 0.77, -86.9, 431.1);
+      transform: matrix(0.77, 0.77, -0.77, 0.77, -86.9, 430.1);
       background: rgb(186, 203, 220); 
       position: absolute;
       display: flex;
@@ -198,14 +212,14 @@ section { width: 100%;
        font-size: 10pt;
 }
 
-.c32 { transform: matrix(1.3, 0, 0, 1.3, 75, -74);
+.c32 { transform: matrix(1.3, 0, 0, 1.3, 88, -87);
        background: rgb(28, 40, 54);
-       width: 40px;
-       height: 40px;
+       width: 20px;
+       height: 20px;
        position: absolute;
 }
 
-.c321 { transform: matrix(1, 0, 0, 1, 8, 0);
+.c321 { transform: matrix(1, 0, 0, 1, 4, 0);
         background: rgb(186, 203, 220); 
         width: 80%;
         height: 80%;
@@ -298,14 +312,15 @@ figure figcaption {
 
 .nis1 {
     width: 100%;
-    height: 40%;
+    height: 755px;
     background: rgb(17, 33, 50);
     overflow: hidden;
+    position: relative;
 }
 .nis2 {
     width: 100%;
-    height: 40%;
-    background:  url(img/fonNis.png);
+    height: 755px;
+    background:  url(img/sea.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,14 +387,18 @@ figure figcaption {
 text-align: center;
 margin: 5% 15% 5% 15%;
 }
+.nis1111 {
+    width: 80%;
+    position: absolute;
+    left: 12%;
+}
 .nisfooter {
     width: 100%;
-    height: 40%;
-    background: rgb(68, 221, 8);
+    height: 810px;
 }
 .foooter {
     width: 100%;
-    height: 65%;
+    height: 545px;
     background: url(img/imgnis/gavan.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -428,9 +447,10 @@ margin: 5% 15% 5% 15%;
 }
 .map {
     width: 100%;
-    height: 35%;
-    background: url(img/map.png);
-    margin-bottom: 3%;
+    height: 330px;
+    background-image: url(img/map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
