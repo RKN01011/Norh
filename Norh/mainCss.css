@@ -227,9 +227,9 @@ section { width: 100%;
 
 article { 
     width: 100%;
-    height: 60%;
     position: absolute;
-    transform: matrix(1, 0, 0, 1, -121, 1166);
+    bottom: 210px;
+    right: 30px;
 }
 
 figure {
@@ -239,7 +239,6 @@ figure {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: matrix(1, 0, 0, 1, 46, 0);
 }
 
 figure figcaption {
@@ -251,9 +250,6 @@ figure figcaption {
 .anc {
     display: flex;
     justify-content: center;
-    transform: matrix(1, 0, 0, 1, 65, -30);
-    margin: 5%;
-
 }
 
 .a1 {
@@ -304,10 +300,10 @@ figure figcaption {
 }
 .radial {
     width: 100%;
-    height: 55%;
+    height: 70%;
     background: linear-gradient(to bottom, #ffffff00, #16151577);
     position: absolute;
-    transform: matrix(1, 0, 0, 1, -25, 749);
+    transform: matrix(1, 0, 0, 1, 0, 74);
 }
 
 .nis1 {
