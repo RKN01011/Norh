@@ -17,10 +17,12 @@
         height: 1860px;
         margin: 0 auto;
         overflow: hidden;
+        width: 85%;
         }
 .list2 { font-family: Ubuntu; 
          margin: 0 auto;
          overflow: hidden;
+         width: 85%;
         }
 .kub1 {
     border-left: 600px solid #fff;
@@ -59,7 +61,8 @@ li a:hover { border-top: 1px solid black;
 }
 
 #sholl {flex: 4;
-         margin-left: 4%;  
+         margin-left: 4%;
+         margin-top: 15px;
 }
 
 #nomber { flex: 2;
@@ -70,7 +73,8 @@ li a:hover { border-top: 1px solid black;
          
 }
 .VFI {
-    display: flex;   
+    display: flex;
+    margin-top: 15px;
 }
 .lii {
     margin-right:30px; 
@@ -373,7 +377,7 @@ figure figcaption {
     height: 15px;
     border-bottom: 3px solid #fff;
     border-left: 3px solid #fff;
-    transform: matrix(1, 1, -1, 1, -435, 15);
+    transform: matrix(1, 1, -1, 1, -365, 15);
     position: absolute;
 }
 .nis222::before {
@@ -382,7 +386,7 @@ figure figcaption {
     height: 15px;
     border-bottom: 3px solid #fff;
     border-right: 3px solid #fff;
-    transform: matrix(1, -1, 1, 1, 435, 15);
+    transform: matrix(1, -1, 1, 1, 365, 15);
     position: absolute;
 }
 .nis222 p {
