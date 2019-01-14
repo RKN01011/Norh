@@ -1,0 +1,636 @@
+@font-face {
+    font-family: Ubuntu; 
+    src: url(TXT/Ubuntu-B.ttf); 
+}
+
+.list { font-family: Ubuntu; 
+        background-image:url(img/sea.png);
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        position: relative;
+        height: 1860px;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 80%;
+        }
+.list2 { font-family: Ubuntu; 
+         margin: 0 auto;
+         background: red;
+         overflow: hidden;
+        width: 80%;
+        }
+.kub1 {
+border-left: 600px solid #fff;
+border-bottom: 760px solid #fff;
+transform: rotate(-45deg);
+position: absolute;
+top: -49px;
+left: 129px;
+width: 1px;
+}
+.kub2 {
+    width: 600px;
+    height: 720px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -40px;
+    right: -293px;
+    background: #fff;
+}
+li a {
+    text-decoration: none;
+    
+    color:black;
+}
+li a:hover { border-top: 1px solid black;
+    transition-property: all;
+    transition-duration: 200ms;
+
+} 
+
+.contact { display: flex;
+           position: absolute;
+           z-index: 3;
+           width: 100%;
+           
+}
+
+#sholl {flex: 4;
+         margin-left: 4%;  
+}
+
+#nomber { flex: 2;
+         display: flex;
+         
+         
+          
+         
+}
+.VFI {
+    display: flex;   
+}
+.lii {
+    margin-right:30px; 
+}
+
+span {
+    display: flex;
+    margin-right: 15%;
+    margin-top: .9em;
+}
+
+
+.menu {display: flex;
+       flex-flow: column;
+       z-index: 3;
+       position: absolute;
+       top: 164px; 
+}
+.imgg {width: 165px;
+       height:72px;
+       margin-left: 4%;
+       margin-bottom: 2%;
+       margin-top: 2%; 
+}
+
+.imggg { width: 38px;
+        height: 32px; 
+}
+li {list-style-type: none;
+    display: table-cell;
+}
+
+.uul { display: table;
+     width: 500px;
+}
+
+/* Дуратские квадраты */
+
+section { width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          top: 218px;
+          left: -2%;}
+
+.c1 { width: 500px;
+      height: 500px;
+      transform:  matrix(0.77, 0.77, -0.77, 0.77, 110, 90);
+      overflow: hidden;
+      background-color: transparent;
+       
+     
+}
+
+.c11 {
+    background: url(img/chris-kristiansen-563481-unsplash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;     
+    width: 100%;
+    height: 100%;
+    transform:matrix(1.03, -0.97, 0.97, 0.97, 0, 0); }
+  
+    
+
+.c12 {
+    width: 35%;
+    height: 35%;
+    transform: matrix(1, 0, 0, 1, 163, 335);
+}
+
+.c13 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(186, 203, 220);
+    transform: matrix(0.7, 0.7, -0.7, 0.7, 225, -199); }
+
+.c2 {width: 350px;
+    height: 350px;
+    transform: matrix(0.87, 0.87, -0.87, 0.87, -274, 160);
+    background: rgb(186, 152, 152); 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.c23 { background: #fff;
+       transform: matrix(1, 0, 0, 1, -141, -142) ;
+       position: absolute;
+       width: 20%;
+       height: 20%;
+
+}
+.c231 { background: rgb(67, 84, 101);
+        transform: matrix(1, 0, 0, 1, 0, 0) ;
+        width: 50%;
+        height: 50%;
+}
+.c22 { transform: rotate(-45deg) ;
+       width: 2500px;
+       height: 80px;
+       padding-bottom: 10%;
+       padding-right: 16%;
+       margin-bottom: 70px;
+       line-height: 1.2em;
+       font-size: 10pt;
+       
+
+}
+.c221 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.c222 {
+    margin-bottom: 70px;
+    margin-top: 24px;
+    text-align: center;
+} 
+
+.c223 {
+    border: 1px solid black;
+    padding: 7px 40px 7px 40px;
+    margin-left: 86px;
+    transform: matrix(1, 0, 0, 1, 0, -18);
+    background: rgb(186, 152, 152); 
+}
+
+.c3 { width: 200px;
+      height: 200px;
+      transform: matrix(0.77, 0.77, -0.77, 0.77, -86.9, 430.1);
+      background: rgb(186, 203, 220); 
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+
+.c31 { transform: matrix(0.82, -0.82, 0.82, 0.82, 0, 0);
+       font-size: 10pt;
+}
+
+.c32 { transform: matrix(1.3, 0, 0, 1.3, 88, -87);
+       background: rgb(28, 40, 54);
+       width: 20px;
+       height: 20px;
+       position: absolute;
+}
+
+.c321 { transform: matrix(1, 0, 0, 1, 4, 0);
+        background: rgb(186, 203, 220); 
+        width: 80%;
+        height: 80%;
+}
+
+article { 
+    width: 100%;
+    position: absolute;
+    bottom: 210px;
+    right: 30px;
+}
+
+figure {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure figcaption {
+    color: #fff;
+    font-size: 14pt;
+    margin-top: 4%;
+}
+
+.anc {
+    display: flex;
+    justify-content: center;
+}
+
+.a1 {
+    width: 500px;
+    height: 150px;
+    padding: 3% 6% 3% 5%;
+    margin-left: 4%;
+    text-align: left;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+.pp {
+    margin: 8% 0 11% 0;
+}
+
+.cub1 {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    
+    transform: matrix(1, -1, 1, 1, -174, 106); 
+}
+
+.cub2 {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    transform: matrix(1, -1, 1, 1, 222, 106);  
+}
+.arow1 {
+    transform: matrix(1, 0, 0, 1, 0, 32);
+    position: absolute;
+}
+.arow1, .arow {
+    color: #fff;
+    padding-right: 38px;
+    background: url(img/Arrow.png) no-repeat right; 
+}
+.arow1:hover {
+    color:rgb(186, 152, 152);
+}
+
+.arow:hover {
+    color:rgb(186, 152, 152);
+}
+.radial {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to bottom, #ffffff00, #16151577);
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, 0, 74);
+}
+
+.nis1 {
+    width: 100%;
+    height: 755px;
+    background: rgb(17, 33, 50);
+    overflow: hidden;
+    position: relative;
+}
+.nis2 {
+    width: 100%;
+    height: 755px;
+    background:  url(img/sea.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nis22 {
+    width: 100%;
+    height: 100%;
+    background-image:  linear-gradient(180deg, rgba(30, 30, 30, 0.8) 0%, rgba(16, 16, 16, 0) 54.14%, rgba(16, 16, 16, 0) 54.15%, rgba(2, 2, 2, 0.6) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.figure {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4%;
+    transform: matrix(1, 0, 0, 1, 17, -18);
+
+}
+.figcaption {
+    margin: 1%;
+    color: #fff;
+    font-size: 14pt;
+    margin-top: 4%;
+}
+.nis222 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.344);
+    background-image:  url(img/imgnis/breadcrumbs.png);
+    background-repeat: no-repeat;
+    background-position: 50% 130%;
+    width: 900px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    color:  #fff;
+}
+.nis222::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    transform: matrix(1, 1, -1, 1, -435, 15);
+    position: absolute;
+}
+.nis222::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: matrix(1, -1, 1, 1, 435, 15);
+    position: absolute;
+}
+.nis222 p {
+text-align: center;
+margin: 5% 15% 5% 15%;
+}
+.nis1111 {
+    width: 80%;
+    position: absolute;
+    left: 12%;
+}
+.nisfooter {
+    width: 100%;
+    height: 810px;
+}
+.foooter {
+    width: 100%;
+    height: 545px;
+    background: url(img/imgnis/gavan.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.fo1 {
+    position: relative;
+    width: 290px;
+    height: 80px;
+    transform: matrix(1, 0, 0, 1, -90, -140);
+}
+.fo11 {
+    font-size: 20pt;
+    color: #fff;
+}
+.fo12 {
+    color: #fff;
+}
+.fo1::before {
+    content: url(img/mark3_white.png);
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, -105, 20);
+}
+.fo2 {
+    position: relative;
+    width: 170px;
+    height: 80px;
+    transform: matrix(1, 0, 0, 1, 38, -130);
+}
+.fo2 a {
+    margin: 0px 10px 0px 10px;
+}
+.fo2 p {
+    text-align: center;
+    color: #fff;
+}
+.fo3 {
+    position: relative;
+    width: 318px;
+    height: 80px;
+    transform: matrix(1, 0, 0, 1, 265, -133);
+    color: #fff;
+}
+.map {
+    width: 100%;
+    height: 330px;
+    background-image: url(img/map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.cofe {
+    width: 240px;
+    height: 230px;
+    transform: matrix(1.15, -1.15, 1.15, 1.15, 120, -46);
+    overflow: hidden;
+}
+.cofe1 {
+    background: url(img/imgnis/green-chameleon-21532-unsplash.png);
+    background-position: 37% 35%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 97%;
+    height: 102%;
+    transform: matrix(1, 1, -1, 1, -50, 55);
+}
+
+.znak {
+    width: 205px;
+    height: 225px;
+    transform: matrix(1, -1, 1, 1, 255, 193);
+    overflow: hidden;
+}
+
+.znak1 {
+    background: url(img/imgnis/einar-h-reynis-544755-unsplash.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 106%;
+    height: 109%;
+    transform: matrix(1, 1, -1, 1, 7, -4);
+}
+.znak2 {
+    width: 70px;
+    height: 70px;
+    transform: matrix(1, -1, 1, 1, 165, 30);
+    background-color: rgb(17, 33, 50);
+}
+
+.spisk {
+    width: 250px;
+    height: 250px;
+    transform: matrix(1, 1, -1, 1, 480, -375);
+    background-color: rgb(119, 135, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spisk1 {
+    width: 140px;
+    height: 140px;
+    transform: matrix(1, -1, 1, 1, 9, 14);
+    font-size: 7px;
+}
+
+.spisk1 p {
+    padding: 8% 3% 0 3%;
+    color: #fff;
+    text-align: center;
+    background-image: url(img/imgnis/cuub.png);
+    background-position: 50% -21%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.preim {
+    transform: matrix(1, 1, -1, 1, 860, -611);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(67, 33, 50);
+}
+.preim3 {
+background-color: rgb(67, 84, 101);
+width: 15%;
+height: 15%;
+transform: matrix(1, 0, 0, 1, 8, 8);
+}
+.preim1 {
+    transform: matrix(0.56, -0.56, 0.56, 0.56, 55, 47);
+    width: 5%;
+    height: 5%;
+}
+.grandm {
+    transform: matrix(1, 1, -1, 1, 738, -356 );
+    width: 140px;
+    height: 145px;
+    background: red;
+    position: absolute;
+    overflow: hidden; 
+}
+.grandm1 {
+    background-image: url(img/imgnis/tutor-02.png);
+    transform: matrix(1, -1, 1, 1, 19, 17 );
+    background-position: 38% 34%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 106%;
+    height: 100%;
+}
+.grandm2 {
+    width: 58px;
+    height: 58px;
+    background: rgb(17, 33, 50);
+    transform: matrix(1, 1, -1, 1, 784, -403);
+    position: absolute;
+}
+.grandm3 {
+    width: 55%;
+    height: 55%;
+    background-color: #fff;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.man {
+    
+    transform: matrix(1, -1, 1, 1, 1040, -559 );
+    position: absolute;
+    width: 145px;
+    height: 140px;
+    overflow: hidden;
+
+}
+.man1 {
+    background-image: url(Img/imgnis/online_obytcheii.png);
+    transform: matrix(1, 1, -1, 1, 0, 0 );
+    width: 101%;
+    height: 103%;
+    background-position: 38% 34%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.man2 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(17, 33, 50);
+    transform: matrix(1, 1, -1, 1, 978, -500 );
+    position: absolute;
+}
+.klass {
+    width: 270px;
+    height: 270px;
+    background: transparent;
+    transform: matrix(1, -1, 1, 1, 514, -331 );
+    overflow: hidden;
+}
+
+.klass1 {
+    background-image: url(Img/imgnis/03.png);
+    transform: matrix(1, 1, -1, 1, 0, 0 );
+    width: 101%;
+    height: 103%;
+    background-position: 38% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+aside {
+   position: fixed;
+   bottom: 30px;
+   left: 30px;
+   width: 150px;
+   height: 50px;
+   transform: matrix(1, 0, 0, 1, 0, 0);
+   padding: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.4s ease-out;
+}
+aside:hover {
+    transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+}
+
+aside a {
+    margin: 0;
+    text-decoration: none;
+    color: rgb(67, 84, 101);
+    font-size: 16pt;
+    border-bottom: 3px solid transparent;
+}
+
+aside a:active {
+    border-bottom: 3px solid rgb(17, 33, 50);
+}
