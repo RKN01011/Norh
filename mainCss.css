@@ -2,39 +2,42 @@
     font-family: Ubuntu; 
     src: url(txt/Ubuntu-B.ttf); 
 }
+@media (min-width: 1px) and (max-width: 1553px) {
+    
+   }
+@media (min-width: 1553px) and (max-width: 9000px) {
 
+   }
 .list { font-family: Ubuntu; 
         background-image:url(img/sea.png);
         background-repeat: no-repeat;
         background-position: 50% 100%;
+        background-size: 100% 69%;
         position: relative;
         height: 1860px;
         margin: 0 auto;
         overflow: hidden;
-        width: 80%;
         }
 .list2 { font-family: Ubuntu; 
          margin: 0 auto;
-         background: red;
          overflow: hidden;
-        width: 80%;
         }
 .kub1 {
-border-left: 600px solid #fff;
-border-bottom: 760px solid #fff;
-transform: rotate(-45deg);
-position: absolute;
-top: -49px;
-left: 129px;
-width: 1px;
-}
-.kub2 {
-    width: 600px;
-    height: 720px;
+    border-left: 600px solid #fff;
+    border-bottom: 760px solid #fff;
     transform: rotate(-45deg);
     position: absolute;
-    top: -40px;
-    right: -293px;
+    top: 170px;
+    left: 94px;
+    width: 1px;
+}
+.kub2 {
+    width: 700px;
+    height: 780px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 140px;
+    right: -330px;
     background: #fff;
 }
 li a {
@@ -234,11 +237,11 @@ article {
 
 figure {
     width: 100%;
-    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transform: matrix(1, 0, 0, 1, 25, -80);
 }
 
 figure figcaption {
@@ -254,7 +257,7 @@ figure figcaption {
 
 .a1 {
     width: 500px;
-    height: 150px;
+    height: 230px;
     padding: 3% 6% 3% 5%;
     margin-left: 4%;
     text-align: left;
@@ -271,8 +274,9 @@ figure figcaption {
     height: 10px;
     background-color: #fff;
     position: absolute;
-    
-    transform: matrix(1, -1, 1, 1, -174, 106); 
+    transform: matrix(1, -1, 1, 1, 0, 0);
+    left: 35%;
+    bottom: 110px;
 }
 
 .cub2 {
@@ -280,7 +284,9 @@ figure figcaption {
     height: 10px;
     background-color: #fff;
     position: absolute;
-    transform: matrix(1, -1, 1, 1, 222, 106);  
+    transform: matrix(1, -1, 1, 1, 0, 0);
+    right: 31%;
+    bottom: 110px;
 }
 .arow1 {
     transform: matrix(1, 0, 0, 1, 0, 32);
@@ -384,9 +390,7 @@ text-align: center;
 margin: 5% 15% 5% 15%;
 }
 .nis1111 {
-    width: 80%;
     position: absolute;
-    left: 12%;
 }
 .nisfooter {
     width: 100%;
@@ -469,7 +473,7 @@ margin: 5% 15% 5% 15%;
 .znak {
     width: 205px;
     height: 225px;
-    transform: matrix(1, -1, 1, 1, 255, 193);
+    transform: matrix(1, -1, 1, 1, 226, 160);
     overflow: hidden;
 }
 
@@ -485,14 +489,14 @@ margin: 5% 15% 5% 15%;
 .znak2 {
     width: 70px;
     height: 70px;
-    transform: matrix(1, -1, 1, 1, 165, 30);
+    transform: matrix(1, -1, 1, 1, 133, -5);
     background-color: rgb(17, 33, 50);
 }
 
 .spisk {
     width: 250px;
     height: 250px;
-    transform: matrix(1, 1, -1, 1, 480, -375);
+    transform: matrix(1, 1, -1, 1, 457, -375);
     background-color: rgb(119, 135, 152);
     display: flex;
     justify-content: center;
@@ -517,7 +521,7 @@ margin: 5% 15% 5% 15%;
 }
 
 .preim {
-    transform: matrix(1, 1, -1, 1, 860, -611);
+    transform: matrix(1, 1, -1, 1, 833, -608);
     width: 200px;
     height: 200px;
     background-color: rgb(67, 33, 50);
@@ -529,12 +533,12 @@ height: 15%;
 transform: matrix(1, 0, 0, 1, 8, 8);
 }
 .preim1 {
-    transform: matrix(0.56, -0.56, 0.56, 0.56, 55, 47);
+    transform: matrix(0.56, -0.56, 0.56, 0.56, 87, 56);
     width: 5%;
     height: 5%;
 }
 .grandm {
-    transform: matrix(1, 1, -1, 1, 738, -356 );
+    transform: matrix(1, 1, -1, 1, 708, -356 );
     width: 140px;
     height: 145px;
     background: red;
@@ -554,7 +558,7 @@ transform: matrix(1, 0, 0, 1, 8, 8);
     width: 58px;
     height: 58px;
     background: rgb(17, 33, 50);
-    transform: matrix(1, 1, -1, 1, 784, -403);
+    transform: matrix(1, 1, -1, 1, 755, -403);
     position: absolute;
 }
 .grandm3 {
@@ -565,7 +569,7 @@ transform: matrix(1, 0, 0, 1, 8, 8);
 }
 .man {
     
-    transform: matrix(1, -1, 1, 1, 1040, -559 );
+    transform: matrix(1, -1, 1, 1, 1017, -558 );
     position: absolute;
     width: 145px;
     height: 140px;
@@ -586,14 +590,14 @@ transform: matrix(1, 0, 0, 1, 8, 8);
     width: 30px;
     height: 30px;
     background-color: rgb(17, 33, 50);
-    transform: matrix(1, 1, -1, 1, 978, -500 );
+    transform: matrix(1, 1, -1, 1, 959, -500 );
     position: absolute;
 }
 .klass {
     width: 270px;
     height: 270px;
     background: transparent;
-    transform: matrix(1, -1, 1, 1, 514, -331 );
+    transform: matrix(1, -1, 1, 1, 446, -300 );
     overflow: hidden;
 }
 
