@@ -24,11 +24,11 @@
 }
 .kub2 {
     width: 700px;
-    height: 780px;
+    height: 1180px;
     transform: rotate(-45deg);
     position: absolute;
-    top: -125px;
-    left: 1195px;
+    top: -225px;
+    left: 1346px;
     background: #fff;
 }
 li a {
@@ -109,7 +109,7 @@ section { width: 60%;
           align-items: center;
           position: relative;
           top: 311px;
-          left: 18%;
+          left: 2%;
 }
 .c1 { width: 500px;
       height: 500px;
