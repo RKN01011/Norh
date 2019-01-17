@@ -1,0 +1,136 @@
+.list {
+    width: 100%;
+    margin: 0 auto;
+    height: 1300px;
+    background-image: url("img/font.png ");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navi {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: -150px;
+    left: 60px;
+    transform: rotate(45deg);
+    width: 300px;
+    height: 300px;
+    background-color: rgb(186, 152, 152);
+}
+.logo1 {
+    background-image: url(img/mark3.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 72%;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+span {
+    font-size: 24pt;
+    font-weight: 500;
+}
+
+
+.menu1 {
+    flex:9;
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    flex: 2;
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.menu {
+    position: absolute;
+    width: 75%;
+    right: 0;
+    top: 0;
+    display: flex;
+    margin: 20px 0%;
+}
+a {
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    font-size: 14pt;
+    color: black;
+}
+@media (min-width: 1px) and (max-width: 1500px) {
+    .menu {width: 58%;}
+    a  { width: 20%;
+         font-size: 11pt; }
+}
+
+.kubs {
+    width: 60%;
+    position: relative;
+    height: 500px;
+    top: 300px;
+    left: 24%;
+}
+.kubs:before{
+    content: "Расписание курсов";
+    position: absolute;
+    top: -110px;
+    left: 385px;
+    font-weight: 600;
+}
+.kubs:after{
+    content: "Какой язык хотите изучать?";
+    position: absolute;
+    left: -225px;
+    top: 165px;
+}
+.cub {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cub1 {
+    background: rgb(186, 203, 220);
+    left: 0;
+    top: 210px;
+}
+.cub2 {
+    background: rgb(67, 84, 101);
+    top: 140px;
+    left: 180px;
+}
+.cub3 {
+    background: rgb(67, 84, 101);
+    top: 70px;
+    left: 384px;
+}
+.cub4 {
+    background: rgb(67, 33, 50);
+    left: 320px;
+    bottom: 75px;
+}
+.cub5 {
+    background: rgb(67, 33, 50);
+    left: 670px;
+    top: 69px;
+}
+.cu {
+    transform: rotate(-45deg);
+    font-size: 12pt;
+    color: white;
+}
+.n {
+    color: black;
+}
+
