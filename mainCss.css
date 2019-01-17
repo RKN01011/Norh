@@ -18,17 +18,17 @@
     border-bottom: 760px solid #fff;
     transform: rotate(-45deg);
     position: absolute;
-    top: 170px;
-    left: 94px;
-    width: 1px;
+    top: -150px;
+    left: 23px;
+    width: 1px
 }
 .kub2 {
     width: 700px;
     height: 780px;
     transform: rotate(-45deg);
     position: absolute;
-    top: 140px;
-    right: -330px;
+    top: -125px;
+    left: 1195px;
     background: #fff;
 }
 li a {
@@ -102,19 +102,19 @@ li {list-style-type: none;
 
 /* Дуратские квадраты */
 
-section { width: 100%;
+section { width: 60%;
+          height: 600px;
           display: flex;
           justify-content: center;
           align-items: center;
           position: relative;
-          top: 218px;
-          left: -2%;
-           }
-
-
+          top: 311px;
+          left: 18%;
+}
 .c1 { width: 500px;
       height: 500px;
-      transform:  matrix(0.77, 0.77, -0.77, 0.77, 0, 90);
+      transform:  matrix(0.77, 0.77, -0.77, 0.77, 0, 0);
+      left: 645px;
       overflow: hidden;
       background-color: transparent;
       z-index: 2;
@@ -148,14 +148,14 @@ section { width: 100%;
 
 .c2 {width: 350px;
     height: 350px;
-    transform: matrix(0.87, 0.87, -0.87, 0.87, 0, 160);
+    transform: matrix(0.87, 0.87, -0.87, 0.87, 0, 0);
+    left: 200px;
     background: rgb(186, 152, 152); 
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    position: absolute;}
+    z-index: 2; }
 
 .c23 { background: #fff;
        transform: matrix(1, 0, 0, 1, -141, -142) ;
@@ -200,16 +200,16 @@ section { width: 100%;
 
 .c3 { width: 200px;
       height: 200px;
-      transform: matrix(0.77, 0.77, -0.77, 0.77, 0, 430.1);
+      left: 492px;
+      top: 435px;
+      transform: matrix(0.77, 0.77, -0.77, 0.77, 0, 0);
       background: rgb(186, 203, 220); 
       position: absolute;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      z-index: 1;
-    position: absolute;
-}
+      z-index: 1; }
 
 
 .c31 { transform: matrix(0.82, -0.82, 0.82, 0.82, 0, 0);
