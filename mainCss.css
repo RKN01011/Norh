@@ -1,14 +1,5 @@
-@font-face {
-    font-family: Ubuntu; 
-    src: url(txt/Ubuntu-B.ttf); 
-}
-@media (min-width: 1px) and (max-width: 1553px) {
-    
-   }
-@media (min-width: 1553px) and (max-width: 9000px) {
 
-   }
-.list { font-family: Ubuntu; 
+.list {
         background-image:url(img/sea.png);
         background-repeat: no-repeat;
         background-position: 50% 100%;
@@ -17,12 +8,10 @@
         height: 1860px;
         margin: 0 auto;
         overflow: hidden;
-        width: 85%;
         }
-.list2 { font-family: Ubuntu; 
+.list2 {
          margin: 0 auto;
          overflow: hidden;
-         width: 85%;
         }
 .kub1 {
     border-left: 600px solid #fff;
@@ -119,13 +108,17 @@ section { width: 100%;
           align-items: center;
           position: relative;
           top: 218px;
-          left: -2%;}
+          left: -2%;
+           }
+
 
 .c1 { width: 500px;
       height: 500px;
-      transform:  matrix(0.77, 0.77, -0.77, 0.77, 110, 90);
+      transform:  matrix(0.77, 0.77, -0.77, 0.77, 0, 90);
       overflow: hidden;
       background-color: transparent;
+      z-index: 2;
+      position: absolute;
        
      
 }
@@ -155,12 +148,14 @@ section { width: 100%;
 
 .c2 {width: 350px;
     height: 350px;
-    transform: matrix(0.87, 0.87, -0.87, 0.87, -274, 160);
+    transform: matrix(0.87, 0.87, -0.87, 0.87, 0, 160);
     background: rgb(186, 152, 152); 
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    z-index: 1;
+    position: absolute;}
 
 .c23 { background: #fff;
        transform: matrix(1, 0, 0, 1, -141, -142) ;
@@ -205,13 +200,15 @@ section { width: 100%;
 
 .c3 { width: 200px;
       height: 200px;
-      transform: matrix(0.77, 0.77, -0.77, 0.77, -86.9, 430.1);
+      transform: matrix(0.77, 0.77, -0.77, 0.77, 0, 430.1);
       background: rgb(186, 203, 220); 
       position: absolute;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      z-index: 1;
+    position: absolute;
 }
 
 
@@ -313,7 +310,7 @@ figure figcaption {
     height: 70%;
     background: linear-gradient(to bottom, #ffffff00, #16151577);
     position: absolute;
-    transform: matrix(1, 0, 0, 1, 0, 74);
+    transform: matrix(1, 0, 0, 1, 0, 558);
 }
 
 .nis1 {
