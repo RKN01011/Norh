@@ -24,11 +24,11 @@
 }
 .kub2 {
     width: 700px;
-    height: 1180px;
+    height: 1380px;
     transform: rotate(-45deg);
     position: absolute;
     top: -225px;
-    left: 1346px;
+    left: 1435px;
     background: #fff;
 }
 li a {
@@ -270,25 +270,15 @@ figure figcaption {
     margin: 8% 0 11% 0;
 }
 
-.cub1 {
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    position: absolute;
-    transform: matrix(1, -1, 1, 1, 0, 0);
-    left: 35%;
-    bottom: 110px;
-}
+.b1:after {content: "";
+           width: 10px;
+           height: 10px;
+           background-color: #fff;
+           position: absolute;
+           transform: matrix(1, -1, 1, 1, 0, 0);
+           left: 35%;
+           bottom: 110px; }
 
-.cub2 {
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    position: absolute;
-    transform: matrix(1, -1, 1, 1, 0, 0);
-    right: 31%;
-    bottom: 110px;
-}
 .arow1 {
     transform: matrix(1, 0, 0, 1, 0, 32);
     position: absolute;
