@@ -15,6 +15,9 @@
         }
 @media (min-width: 1px) and (max-width: 1300px)
 {
+    .nis1111{
+        left: 0px;
+    }
     section {
         left: -9%;
     }
@@ -39,9 +42,35 @@
         top: -465px;
         left: 1215px;
     }
-}
+    .fo1 {
+        transform: matrix(1, 0, 0, 1, 15, -140);
+    }
+    .fo2 {
+        transform: matrix(1, 0, 0, 1, 10, -120);
+    }
+    .fo3 {
+        transform: matrix(1, 0, 0, 1, 110, -133);
+    }
+    .cofe {
+        width: 210px;
+        height: 210px;
+    }
+    .znak {
+        transform: matrix(1, -1, 1, 1, 210, 145);
+    }
+    .znak2 { transform: matrix(1, -1, 1, 1, 130, -12); }
+    }
+    .spisk {
+        width: 230px;
+        height: 230px;
+        transform: matrix(1, 1, -1, 1, 428, -380);
+    }
+
 @media (min-width: 1301px) and (max-width: 4350px)
 {
+    .nis1111{
+        left: 235px;
+    }
     section {
         left: 5%;
     }
@@ -65,6 +94,15 @@
         height: 1650px;
         top: -465px;
         left: 1215px;
+    }
+    .fo1 {
+        transform: matrix(1, 0, 0, 1, -120, -140);
+    }
+    .fo2 {
+        transform: matrix(1, 0, 0, 1, 10, -120);
+    }
+    .fo3 {
+        transform: matrix(1, 0, 0, 1, 265, -133);
     }
 }
 .kub1 {
@@ -312,6 +350,7 @@ figure figcaption {
     font-size: 14px;
     background: rgba(0, 0, 0, 0.4);
     color: #fff;
+    position: relative;
 }
 .pp {
     margin: 8% 0 11% 0;
@@ -323,7 +362,16 @@ figure figcaption {
            background-color: #fff;
            position: absolute;
            transform: matrix(1, -1, 1, 1, 0, 0);
-           left: 35%;
+           left: -8%;
+           bottom: 110px; }
+
+.b1:before {content: "";
+           width: 10px;
+           height: 10px;
+           background-color: #fff;
+           position: absolute;
+           transform: matrix(1, -1, 1, 1, 0, 0);
+           right: -8%;
            bottom: 110px; }
 
 .arow1 {
@@ -347,12 +395,12 @@ figure figcaption {
     height: 70%;
     background: linear-gradient(to bottom, #ffffff00, #16151577);
     position: absolute;
-    transform: matrix(1, 0, 0, 1, 0, 558);
+    transform: matrix(1, 0, 0, 1, 0, -40);
 }
 
 .nis1 {
     width: 100%;
-    height: 755px;
+    height: 635px;
     background: rgb(17, 33, 50);
     overflow: hidden;
     position: relative;
@@ -449,7 +497,6 @@ margin: 5% 15% 5% 15%;
     position: relative;
     width: 290px;
     height: 80px;
-    transform: matrix(1, 0, 0, 1, -90, -140);
 }
 .fo11 {
     font-size: 20pt;
@@ -467,7 +514,7 @@ margin: 5% 15% 5% 15%;
     position: relative;
     width: 170px;
     height: 80px;
-    transform: matrix(1, 0, 0, 1, 38, -130);
+
 }
 .fo2 a {
     margin: 0px 10px 0px 10px;
@@ -475,43 +522,46 @@ margin: 5% 15% 5% 15%;
 .fo2 p {
     text-align: center;
     color: #fff;
+    margin-top: 20px;
 }
 .fo3 {
     position: relative;
     width: 318px;
     height: 80px;
-    transform: matrix(1, 0, 0, 1, 265, -133);
     color: #fff;
+}
+.fo31 {
+    width: 295px;
 }
 .map {
     width: 100%;
     height: 330px;
     background-image: url(img/map.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 
 .cofe {
-    width: 240px;
-    height: 230px;
-    transform: matrix(1.15, -1.15, 1.15, 1.15, 120, -46);
+    width: 180px;
+    height: 180px;
+    transform: matrix(1.15, -1.15, 1.15, 1.15, 70, 17);
     overflow: hidden;
 }
 .cofe1 {
     background: url(img/imgnis/green-chameleon-21532-unsplash.png);
-    background-position: 37% 35%;
+    background-position: 70% 44%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 123%;
     width: 97%;
-    height: 102%;
-    transform: matrix(1, 1, -1, 1, -50, 55);
+    height: 110%;
+    transform: matrix(1, 1, -1, 1, -27, 19);
 }
 
 .znak {
-    width: 205px;
-    height: 225px;
-    transform: matrix(1, -1, 1, 1, 226, 160);
+    width: 170px;
+    height: 170px;
+    transform: matrix(1, -1, 1, 1, 186, 138);
     overflow: hidden;
 }
 
@@ -522,19 +572,19 @@ margin: 5% 15% 5% 15%;
     background-size: cover;
     width: 106%;
     height: 109%;
-    transform: matrix(1, 1, -1, 1, 7, -4);
+    transform: matrix(1, 1, -1, 1, 7, -20);
 }
 .znak2 {
     width: 70px;
     height: 70px;
-    transform: matrix(1, -1, 1, 1, 133, -5);
+    transform: matrix(1, -1, 1, 1, 90, 20);
     background-color: rgb(17, 33, 50);
 }
 
 .spisk {
-    width: 250px;
-    height: 250px;
-    transform: matrix(1, 1, -1, 1, 457, -375);
+    width: 195px;
+    height: 195px;
+    transform: matrix(1, 1, -1, 1, 362, -322);
     background-color: rgb(119, 135, 152);
     display: flex;
     justify-content: center;
@@ -542,26 +592,62 @@ margin: 5% 15% 5% 15%;
 }
 
 .spisk1 {
-    width: 140px;
-    height: 140px;
-    transform: matrix(1, -1, 1, 1, 9, 14);
+    width: 122px;
+    height: 144px;
+    transform: matrix(1, -1, 1, 1, 30, 34);
     font-size: 7px;
 }
 
 .spisk1 p {
-    padding: 8% 3% 0 3%;
+    padding: 0% 3% 0 3%;
     color: #fff;
     text-align: center;
-    background-image: url(img/imgnis/cuub.png);
-    background-position: 50% -21%;
-    background-repeat: no-repeat;
-    background-size: auto;
+}
+.pp1:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: white;
+    transform: rotate(-45deg);
+    left: 60px;
+    top: -10px;
+}
+.pp2:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: white;
+    transform: rotate(-45deg);
+    left: 60px;
+    top: 28px;
+}
+.pp3:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: white;
+    transform: rotate(-45deg);
+    left: 60px;
+    top: 55px;
+}
+.pp4:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: white;
+    transform: rotate(-45deg);
+    left: 60px;
+    top: 82px;
 }
 
 .preim {
-    transform: matrix(1, 1, -1, 1, 833, -608);
-    width: 200px;
-    height: 200px;
+    transform: matrix(1, 1, -1, 1, 668, -516);
+    width: 170px;
+    height: 170px;
     background-color: rgb(67, 33, 50);
 }
 .preim3 {
@@ -576,16 +662,15 @@ transform: matrix(1, 0, 0, 1, 8, 8);
     height: 5%;
 }
 .grandm {
-    transform: matrix(1, 1, -1, 1, 708, -356 );
-    width: 140px;
-    height: 145px;
-    background: red;
+    transform: matrix(1, 1, -1, 1, 566, -305 );
+    width: 120px;
+    height: 120px;
     position: absolute;
-    overflow: hidden; 
+    overflow: hidden;
 }
 .grandm1 {
     background-image: url(img/imgnis/tutor-02.png);
-    transform: matrix(1, -1, 1, 1, 19, 17 );
+    transform: matrix(1, -1, 1, 1, 11, 17 );
     background-position: 38% 34%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -593,10 +678,10 @@ transform: matrix(1, 0, 0, 1, 8, 8);
     height: 100%;
 }
 .grandm2 {
-    width: 58px;
-    height: 58px;
+    width: 45px;
+    height: 45px;
     background: rgb(17, 33, 50);
-    transform: matrix(1, 1, -1, 1, 755, -403);
+    transform: matrix(1, 1, -1, 1, 603, -349);
     position: absolute;
 }
 .grandm3 {
@@ -606,11 +691,11 @@ transform: matrix(1, 0, 0, 1, 8, 8);
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .man {
-    
-    transform: matrix(1, -1, 1, 1, 1017, -558 );
+
+    transform: matrix(1, -1, 1, 1, 815, -470 );
     position: absolute;
-    width: 145px;
-    height: 140px;
+    width: 110px;
+    height: 110px;
     overflow: hidden;
 
 }
@@ -628,14 +713,14 @@ transform: matrix(1, 0, 0, 1, 8, 8);
     width: 30px;
     height: 30px;
     background-color: rgb(17, 33, 50);
-    transform: matrix(1, 1, -1, 1, 959, -500 );
+    transform: matrix(1, 1, -1, 1, 771, -430 );
     position: absolute;
 }
 .klass {
     width: 270px;
     height: 270px;
     background: transparent;
-    transform: matrix(1, -1, 1, 1, 446, -300 );
+    transform: matrix(1, -1, 1, 1, 358, -270 );
     overflow: hidden;
 }
 
@@ -649,20 +734,23 @@ transform: matrix(1, 0, 0, 1, 8, 8);
     background-size: contain;
 }
 aside {
-   position: fixed;
-   bottom: 30px;
-   left: 30px;
-   width: 150px;
-   height: 50px;
-   transform: matrix(1, 0, 0, 1, 0, 0);
-   padding: 4px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   transition: all 0.4s ease-out;
+    position: fixed;
+    bottom: -25px;
+    left: -25px;
+    width: 100px;
+    height: 100px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-out;
+    background-color: burlywood;
+    border-radius: 50px 50px 50px 5px;
 }
 aside:hover {
-    transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+    bottom: -10px;
+    left: -10px;
 }
 
 aside a {
