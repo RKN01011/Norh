@@ -6,12 +6,14 @@
         background-size: 100% 69%;
         position: relative;
         height: 1860px;
+        max-width: 1920px;
         margin: 0 auto;
         overflow: hidden;
         }
 .list2 {
          margin: 0 auto;
          overflow: hidden;
+         max-width: 1920px;
         }
 @media (min-width: 1px) and (max-width: 1300px)
 {
