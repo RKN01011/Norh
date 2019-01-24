@@ -2,9 +2,9 @@
     width: 100%;
     margin: 0 auto;
     height: 1300px;
-    background-image: url("img/font.png ");
+   /* background-image: url("img/font.png ");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; */
 }
 
 .navi {
@@ -32,9 +32,9 @@
     justify-content: center;
     align-items: flex-end;
 }
-span {
-    font-size: 24pt;
-    font-weight: 500;
+.nomber > span {
+    font-size: 14pt;
+    font-weight: 400;
 }
 
 
@@ -44,10 +44,16 @@ span {
     justify-content: flex-start;
 }
 
-p {
-    flex: 2;
-    font-weight: 600;
-    font-size: 14pt;
+.nomber { flex: 3;
+    display: flex;
+
+}
+.VFI {
+    display: flex;
+    list-style: none;
+}
+.lii {
+    margin-right:30px;
 }
 
 .menu {
