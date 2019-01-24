@@ -95,7 +95,11 @@ a {
     content: "Какой язык хотите изучать?";
     position: absolute;
     left: -225px;
-    top: 165px;
+    top: 67px;
+    font-weight: 600;
+    font-size: 21pt;
+    text-align: left;
+    width: 230px;
 }
 .cub {
     width: 150px;
