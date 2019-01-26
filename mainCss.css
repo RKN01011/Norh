@@ -265,6 +265,7 @@ section { width: 60%;
        margin-bottom: 70px;
        line-height: 1.2em;
        font-size: 10pt;
+       position: relative;
        
 
 }
@@ -280,8 +281,8 @@ section { width: 60%;
 
 .c223 {
     border: 1px solid black;
-    padding: 7px 40px 7px 40px;
-    margin-left: 61px;
+    padding: 7px 30px 7px 30px;
+    margin-left: 45px;
     transform: matrix(1, 0, 0, 1, 0, -18);
     background: rgb(186, 152, 152); 
 }
@@ -766,3 +767,9 @@ aside a {
 aside a:active {
     border-bottom: 3px solid rgb(17, 33, 50);
 }
+#top_menu {
+    visibility: hidden;
+}
+
+
+ 
