@@ -263,4 +263,26 @@ a:hover {
     width: 26%;
     height: 225px;
     background: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+form {
+    visibility: hidden;
+    position: absolute;
+    left: -100%;
+}
+.label_ch{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    transform: rotate(-45deg);
+    border: 2px solid antiquewhite;
+    transition: 0.4s ease;
+}
+
+
+#ch1, #ch2, #ch3, #ch4, #ch5, #ch6 {
+    visibility: hidden;
 }
