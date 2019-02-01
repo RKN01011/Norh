@@ -117,6 +117,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .cub1 {
     background-color: rgb(186, 203, 220);
@@ -130,9 +131,27 @@ a:hover {
     left: 55px;
 }
 .cub2 {
-    background: rgb(67, 84, 101);
     top: 140px;
     left: 180px;
+}
+.cub_q{
+    background-size: contain;
+    transform: rotate(-45deg);
+    width: 140%;
+    height: 140%;
+    position: absolute;
+}
+.cub22 {
+    background-image: url(img/kurs/island.png);
+}
+.cub32 {
+    background-image: url(img/kurs/fin.png); 
+}
+.cub42 {
+    background-image: url(img/kurs/shved.png); 
+}
+.cub52 {
+    background-image: url(img/kurs/dat.png);
 }
 .cub3 {
     background: rgb(67, 84, 101);
@@ -189,8 +208,11 @@ a:hover {
 }
 .cu {
     transform: rotate(-45deg);
-    font-size: 12pt;
+    font-size: 14pt;
+    letter-spacing: 2px;
     color: #fff;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 .cun {
     transform: rotate(-45deg);
@@ -274,13 +296,14 @@ form {
 .label_ch{
     width: 30px;
     height: 30px;
-    background-color: transparent;
+    background-color: antiquewhite;
     position: absolute;
     top: 90px;
     left: 50px;
     transform: rotate(-45deg);
     border: 2px solid antiquewhite;
     transition: 0.4s ease;
+    z-index: 2;
 }
 
 
@@ -290,15 +313,59 @@ form {
 .buttom {
     position: absolute;
     bottom: -28px;
-    width: 160px;
-    height: 30px;
+    width: 170px;
+    height: 40px;
     background-color: blanchedalmond;
-    text-align: center;
     font-size: 16pt;
     letter-spacing: 2px;
     border-radius: 5px;
-    transition: 0.5s ease;
+    transition: 0.1s ease-in-out;
+    border: 0px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .buttom:hover {
-    transform: matrix(1.1, 0, 0, 1.1, 0, 0)
+    border: 3px solid black;
 }
+.buttom:active {
+    background-color: rgb(67, 33, 50);
+    color: #fff;
+}
+.div {
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    position: relative;
+    left: 0;
+}
+.label_ch_1, .label_ch_2, .label_ch_3, .label_ch_4, .label_ch_5, .label_ch_6 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    transform: rotate(-45deg);
+    z-index: 0;
+}
+#ch1:checked ~ .label_ch_1 {
+    border: 2px solid antiquewhite;
+}
+#ch2:checked ~ .label_ch_2 {
+    border: 2px solid antiquewhite;
+}
+#ch3:checked ~ .label_ch_3 {
+    border: 2px solid antiquewhite;
+}
+#ch4:checked ~ .label_ch_4 {
+    border: 2px solid antiquewhite;
+}
+#ch5:checked ~ .label_ch_5 {
+    border: 2px solid antiquewhite;
+}
+#ch6:checked ~ .label_ch_6 {
+    border: 2px solid antiquewhite;
+}
+
