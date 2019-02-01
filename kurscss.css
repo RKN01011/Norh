@@ -327,7 +327,7 @@ form {
     
 }
 .buttom:hover {
-    border: 3px solid black;
+    border: 2px solid rgb(74, 151, 228);;
 }
 .buttom:active {
     background-color: rgb(67, 33, 50);
@@ -349,23 +349,28 @@ form {
     left: 40px;
     transform: rotate(-45deg);
     z-index: 0;
+    transition: 0.4s ease-in;
 }
 #ch1:checked ~ .label_ch_1 {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(186, 203, 220);
 }
 #ch2:checked ~ .label_ch_2 {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(186, 203, 220);
 }
 #ch3:checked ~ .label_ch_3 {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(186, 203, 220);
 }
 #ch4:checked ~ .label_ch_4 {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(186, 203, 220);
 }
 #ch5:checked ~ .label_ch_5 {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(186, 203, 220);
 }
 #ch6:checked ~ .label_ch_6 {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(186, 203, 220);
+}
+.p, .text {
+color: #fff;
+transform: matrix(0.8, 0, 0, 0.8, 59, 50);
 }
 
