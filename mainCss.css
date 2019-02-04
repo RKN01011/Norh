@@ -585,8 +585,8 @@ margin: 5% 15% 5% 15%;
 }
 
 .spisk {
-    width: 195px;
-    height: 195px;
+    width: 205px;
+    height: 205px;
     transform: matrix(1, 1, -1, 1, 362, -322);
     background-color: rgb(119, 135, 152);
     display: flex;
@@ -602,7 +602,7 @@ margin: 5% 15% 5% 15%;
 }
 
 .spisk1 p {
-    padding: 0% 3% 0 3%;
+    padding: 0% 3% 0 0%;
     color: #fff;
     text-align: center;
 }
