@@ -12,10 +12,10 @@
 .list1 {
     width: 100%;
     margin: 0 auto;
-    height: 1400px;
+    height: 1500px;
     background-image: url(Img/blue.png);
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: 250%;
     background-position: top;
     max-width: 1920px;
     position: relative;
@@ -425,12 +425,32 @@ main{
     display: flex;
     width: 100%;
     transform: matrix(1, 0, 0, 1, 0, 90);
+    justify-content: flex-end;
 }
 .footer_n{
-widows: 80px;
-height: 50px;
-border: 2px solid #fff;
-padding: 15px;
-text-align: center;
-color: #fff;
+    width: 200px;
+    height: 80px;
+    border: 1px solid #fff;
+    padding: 11px 20px 0px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.n {
+    margin: 0px 30px 0px 30px ;
+}
+footer{
+    width: 100%;
+    position: relative;
+    height: 470px;
+    transform: matrix(1, 0, 0, 1, 0, 100);
+}
+.footer_block{
+    background-color: rgb(186, 152, 152);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: -180px;
+    top: 97px;
+    transform: rotate(-45deg);
 }
