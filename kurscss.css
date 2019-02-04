@@ -420,3 +420,17 @@ main{
     background-position: 10% 50%;
     background-repeat: no-repeat;
 }
+.footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    transform: matrix(1, 0, 0, 1, 0, 90);
+}
+.footer_n{
+widows: 80px;
+height: 50px;
+border: 2px solid #fff;
+padding: 15px;
+text-align: center;
+color: #fff;
+}
