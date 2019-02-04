@@ -9,6 +9,17 @@
     max-width: 1920px;
     position: relative;
 }
+.list1 {
+    width: 100%;
+    margin: 0 auto;
+    height: 1400px;
+    background-image: url(Img/blue.png);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: top;
+    max-width: 1920px;
+    position: relative;
+}
 
 .navi {
     width: 100%;
@@ -23,6 +34,7 @@
     width: 300px;
     height: 300px;
     background-color: rgb(186, 152, 152);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 .logo1 {
     background-image: url(img/mark3.svg);
@@ -34,6 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    
 }
 .nomber > span {
     font-size: 14pt;
@@ -268,25 +281,31 @@ a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
-.l2::before {
+.kubs::before {
     content: "выберете ваш уровень владения языком";
     position: absolute;
-    top: -95px;
-    left: -85px;
+    top: 510px;
+    left: 145px;
     font-weight: 400;
     font-size: 26pt;
     width: 680px;
-
 }
 .l2 {
     position: relative;
 }
 .l {
-    width: 26%;
+    width: 29%;
     height: 225px;
     background: rgba(0, 0, 0, 0.5);
     position: relative;
     border-radius: 3px;
+    transition: 0.6s ease-in-out;
+    transform: matrix3d(1,0,0,0,0,1,0,0.00,0,0,1,0,0,0,0,1);
+    display: flex;
+}
+.l:hover {
+    transform: matrix3d(1,0,0,0,0,1,0,0.00,0,0,1,0,0,0,0,0.95);
+    background: rgba(0, 0, 0, 0.6);
 }
 form {
     visibility: hidden;
@@ -299,9 +318,8 @@ form {
     background-color: antiquewhite;
     position: absolute;
     top: 90px;
-    left: 50px;
+    left: 30px;
     transform: rotate(-45deg);
-    border: 2px solid antiquewhite;
     transition: 0.4s ease;
     z-index: 2;
 }
@@ -314,8 +332,8 @@ form {
     position: absolute;
     bottom: -28px;
     width: 170px;
-    height: 40px;
-    background-color: blanchedalmond;
+    height: 35px;
+    background-color: rgb(186, 203, 220);
     font-size: 16pt;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -327,12 +345,12 @@ form {
     
 }
 .buttom:hover {
-    border: 2px solid rgb(74, 151, 228);;
+    border: 2px solid rgb(67, 33, 50);;
+    color: rgb(67, 33, 50);
 }
 .buttom:active {
     background-color: rgb(67, 33, 50);
-    color: #fff;
-}
+    color: #fff; }
 .div {
     width: 50px;
     height: 50px;
@@ -346,7 +364,7 @@ form {
     border: 2px solid transparent;
     position: absolute;
     top: 80px;
-    left: 40px;
+    left: 20px;
     transform: rotate(-45deg);
     z-index: 0;
     transition: 0.4s ease-in;
@@ -370,7 +388,35 @@ form {
     border: 2px solid rgb(186, 203, 220);
 }
 .p, .text {
-color: #fff;
-transform: matrix(0.8, 0, 0, 0.8, 59, 50);
+    color: #fff;
+    transform: matrix(0.8, 0, 0, 0.8, 46, 50);
+    width: 90%;
+    font-size: 14px;
+    text-align: left;
 }
-
+header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: matrix(1, 0, 0, 1, 0, 30);
+}
+h1 {
+    font-size: 2.0rem;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: matrix(1, 0, 0, 1, 0, 50);
+    height: 50%;
+}
+.nis_l{
+    width: 30%;
+    height: 300px;
+    background-image:  url("img/kurs/pattern.png"), linear-gradient(to top, rgb(186, 203, 220), rgb(226, 232, 238));
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+}
