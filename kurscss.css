@@ -6,19 +6,19 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
-    max-width: 1920px;
+    max-width: 1840px;
     position: relative;
 }
 .list1 {
     width: 100%;
     margin: 0 auto;
-    height: 1500px;
     background-image: url(Img/blue.png);
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size: 305%;
     background-position: top;
-    max-width: 1920px;
+    max-width: 1840px;
     position: relative;
+    overflow: hidden;
 }
 
 .navi {
@@ -414,17 +414,21 @@ main{
     height: 50%;
 }
 .nis_l{
-    width: 30%;
+    width: 465px;
     height: 300px;
     background-image:  url("img/kurs/pattern.png"), linear-gradient(to top, rgb(186, 203, 220), rgb(226, 232, 238));
     background-position: 10% 50%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .footer{
     position: relative;
     display: flex;
     width: 100%;
-    transform: matrix(1, 0, 0, 1, 0, 90);
+    transform: matrix(1, 0, 0, 1, 0, 45);
     justify-content: flex-end;
 }
 .footer_n{
@@ -443,14 +447,69 @@ footer{
     width: 100%;
     position: relative;
     height: 470px;
-    transform: matrix(1, 0, 0, 1, 0, 100);
+    transform: matrix(1, 0, 0, 1, 0, 45);
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(216, 199, 199, 0.418)
 }
 .footer_block{
     background-color: rgb(186, 152, 152);
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     position: absolute;
     left: -180px;
     top: 97px;
     transform: rotate(-45deg);
+}
+.data{
+    width: 290px;
+    margin-left: 50px;
+}
+.data_ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.li_nis{
+    font-size: 12px;
+    margin-left: 110px;
+    display: none;
+}
+.li_nis{
+
+}
+.data_ul:hover{
+    background: #fff;
+}
+.data_ul:hover > .li_nis{
+    display: inline;
+}
+.data_ul{
+    margin-bottom: 10px;
+    transition-duration: 0.8s ;
+    transition-timing-function: cubic-bezier(.46,-0.07,.6,1.45);
+}
+.text2{
+    color: #fff;
+    width: 90%;
+    font-size: 20px;
+    text-align: left;
+    transform: matrix(0.8, 0, 0, 0.8, 46, 50);
+}
+.footer_wap{
+    width: 90%;
+    height: 310px;
+    display: flex;
+}
+ul{
+    list-style: none;
+    font-size: 16pt;
+}
+.footer_wap::after{
+    content: url("img/kurs/mark3_white.png");
+    position: absolute;
+    top: 100px;
+    left: 80px;
 }
