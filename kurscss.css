@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
-    max-width: 1840px;
+    max-width: 1920px;
     position: relative;
 }
 .list1 {
@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-size: 305%;
     background-position: top;
-    max-width: 1840px;
+    max-width: 1920px;
     position: relative;
     overflow: hidden;
 }
@@ -60,7 +60,7 @@
     justify-content: flex-start;
 }
 
-.nomber { flex: 3;
+.nomber { flex: 4;
     display: flex;
 
 }
@@ -91,7 +91,9 @@ a:hover {
     text-decoration: overline;
     color: black;
 }
-@media (min-width: 1px) and (max-width: 1500px) {
+
+@media (min-width: 601px) and (max-width: 1500px) {
+   
     .menu {width: 58%;}
     a  { width: 30%;
          font-size: 11pt; }
@@ -100,12 +102,13 @@ a:hover {
         left: -80px;
     }
 }
-@media (min-width: 1500px) and (max-width: 4500px) {
+@media  (min-width: 1500px) and (max-width: 4500px) {
     .kubs { left: 25%; }
     .kubs:after {
         left: -175px;
     }
 }
+
 
 .kubs {
     position: absolute;
@@ -344,6 +347,9 @@ form {
     align-items: center;
     
 }
+.buttom1{
+    animation: todd 4s ease-out 0.3s infinite normal;
+}
 .buttom:hover {
     border: 2px solid rgb(67, 33, 50);;
     color: rgb(67, 33, 50);
@@ -351,6 +357,14 @@ form {
 .buttom:active {
     background-color: rgb(67, 33, 50);
     color: #fff; }
+
+@keyframes todd{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
 .div {
     width: 50px;
     height: 50px;
