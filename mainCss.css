@@ -1,7 +1,11 @@
+/* Мобилка */
 @media (max-width: 600px){
     .list{
         display: none;
     }
+}
+.mob_list{
+    overflow: hidden;
 }
 .lini{
     width: 30px;
@@ -50,8 +54,6 @@
     background: rgb(243, 234, 221);
     color: black;
 }
-
-
 #tap{
     visibility: hidden;
 }
@@ -138,7 +140,201 @@
     border: 1px solid;
     padding: 10px 80px 10px 80px;
 }
-
+.mob_chose_learn{
+    background-image: linear-gradient(180deg, rgba(30, 30, 30, 0.8) 0%, rgba(16, 16, 16, 0) 54.14%, rgba(16, 16, 16, 0) 54.15%, rgba(2, 2, 2, 0.6) 100%),
+    url("img/sea.png");
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+}
+.mob_chose{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0 10px 35px;
+    background-color: rgba(25, 26, 27, 0.521);
+}
+.mob_chose_text{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-size: 15pt;
+    font-weight: 500;
+}
+.mob_chose_text:before{
+    content: url("img/mark5_white.svg");
+    position: relative;
+    top: -15px;
+    left: 0px;
+}
+.mob_arrow > a{
+    color: #fff;
+    border-bottom: 2px solid;
+    font-weight: 500;
+    font-size: 12pt;
+}
+.mob_arrow{
+    position: relative;
+}
+.mob_arrow:after{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 1px;
+    border: 1px solid;
+    top: 15px;
+    left: 200px;
+}
+.mob_arrow:before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    top: 9px;
+    left: 240px;;
+    transform: rotate(45deg);
+}
+.mob_prem_core{
+    height: 510px;
+}
+.mob_prem{
+    height: 660px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    background: rgb(17, 33, 50);
+}
+.kkub1{
+    background-color: rgb(67, 33, 50);
+    width: 85px;
+    height: 85px;
+    transform: matrix(1, -1, 1, 1, 0, 0);
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.pre_kub{
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    width: 30px;
+    height: 30px;
+    background: rgb(17, 33, 50);
+}
+.pre_kub > div{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(119, 135, 152);
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.kkub1:after{
+    content: url(img/mark4_white.svg);
+    position: absolute;
+    top: 40px;
+    left: 2px;
+    transform: rotate(-45deg);
+}
+.kub1_mob > p{
+    transform: matrix(1, 1, -1, 1, 12, -20);
+    font-size: 6pt;
+    font-weight: 400;
+}
+.kkub2{
+    width: 65px;
+    height: 65px;
+    transform: matrix(1, -1, 1, 1, -90, -60);
+    overflow: hidden;
+}
+.kkub2 > div{
+    background-image: url("Img/classroom.png");
+    transform: matrix(1, 1, -1, 1, -5, -20);
+    width: 145%;
+    height: 150%;
+    background-position: 50% 44%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.kkub3{
+    background-color: red;
+    width: 65px;
+    height: 65px;
+    transform: matrix(1, -1, 1, 1, 90, -180);
+    overflow: hidden;
+}
+.kkub3 > div{
+    background-image: url(Img/man.png);
+    transform: matrix(1, 1, -1, 1, -3, -14);
+    width: 103%;
+    height: 140%;
+    background-position: 50% 44%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.kkub4{
+    background-color: rgb(119, 135, 152);
+    width: 150px;
+    height: 150px;
+    transform: matrix(1, -1, 1, 1, 1, -175);
+    overflow: hidden;
+    position: relative;
+}
+.kub_text{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10px;
+    left: -15px;
+}
+.kub_text > div{
+    position: relative;
+    top: 33px;
+    left: -15px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(186, 203, 220);
+    transform: rotate(-45deg);
+}
+.kub4_mob1{
+    background-color: rgb(17, 33, 50);
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    width: 35px;
+    height: 35px;
+}
+.kub4_mob1 > div{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(186, 152, 152);
+    top: 5px;
+    left: 10px;
+}
+.mob_text_kub{
+    font-size: 6pt;
+    text-align: center;
+    margin-bottom: 8px;
+}
+/* Основа */
 .list {
     background-image: url(img/sea.png);
     background-repeat: no-repeat;
