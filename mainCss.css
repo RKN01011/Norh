@@ -306,12 +306,13 @@
 }
 .kub_text > div{
     position: relative;
-    top: 33px;
-    left: -15px;
+    top: 28px;
+    left: -17px;
     width: 20px;
     height: 20px;
-    background-color: rgb(186, 203, 220);
+    background-color: rgb(67, 33, 50);
     transform: rotate(-45deg);
+
 }
 .kub4_mob1{
     background-color: rgb(17, 33, 50);
@@ -334,6 +335,106 @@
     text-align: center;
     margin-bottom: 8px;
 }
+
+/* Слайд */
+.slider{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.slider_head{
+    margin-top: 80px;
+}
+.slider_footer{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 45px;
+}
+.slider_check{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+.slider_check:active{
+    background-color: black;
+}
+.slider_head:before{
+    content: url(Img/mark11_white.png);
+    position: relative;
+    top: -15px;
+    left: 90px;
+}
+.slider_width{
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.slider_width1{
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+}
+.slider_width2{
+    width: 20%;
+    height: 100%;
+    background-color: blue;  
+}
+.slider_width3{
+    width: 20%;
+    height: 100%;
+    background-color: gold;
+}
+.slider_width4{
+    width: 20%;
+    height: 100%;
+    background-color: hotpink;
+}
+.slider_width5{
+    width: 20%;
+    height: 100%;
+    background-color: teal;
+}
+.slider_mob{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: 
+    linear-gradient(180deg, rgba(30, 30, 30, 0.8) 0%, rgba(16, 16, 16, 0) 33.7%, rgba(16, 16, 16, 0) 59.67%, rgba(2, 2, 2, 0.6) 100%),
+    url("img/sea.png");
+}
+input[type="radio"]{
+    display: none;
+}
+#slid_tap1:checked ~ .slider_width{
+    transform: translate(0px);
+}
+#slid_tap2:checked ~ .slider_width{
+    transform: translate(-300px);
+}
+#slid_tap3:checked ~ .slider_width{
+    transform: translate(-600px);
+}
+#slid_tap4:checked ~ .slider_width{
+    transform: translate(-900px);
+}
+#slid_tap5:checked ~ .slider_width{
+    transform: translate(-1200px);
+}
+.slider_width{
+    transition: all 1s cubic-bezier(0,.73,.41,1.07);
+}
+
+
+
+/* Слайд */
+
 /* Основа */
 .list {
     background-image: url(img/sea.png);
